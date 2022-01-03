@@ -33,7 +33,7 @@
 
 body{
     background-color: var(--primary-red);
-    background-image: url('images/bg-intro-desktop.png');
+    background-image: url('./intro-component-with-signup-form-master/images/bg-intro-mobile.png');
     font-family: var(--body-font);
     height: 100vh;
 }
@@ -137,7 +137,9 @@ button{
     color: var(--primary-red);
 }
 @media screen and (min-width: 1440px) {
-    
+    body{
+        background-image: url('./intro-component-with-signup-form-master/images/bg-intro-desktop.png');
+    }
     .all-container{
         display: flex;
         flex-direction: row;
