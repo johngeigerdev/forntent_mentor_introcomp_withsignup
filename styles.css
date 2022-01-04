@@ -164,5 +164,7 @@ button{
         font-size: var(--h1-font-size);
         font-weight: 700;
         line-height: 3.5rem;
+        position: relative;
+        left: -3.5rem;
         }
 }
